@@ -1,5 +1,4 @@
-import { saludar } from './js/componentes';
-import './styles.css';
+import regeneratorRuntime from "regenerator-runtime";
+import { init } from './js/archivos-page'
 
-const nombre = 'Pablo';
-saludar( nombre );
+init();
